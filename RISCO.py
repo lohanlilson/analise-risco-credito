@@ -206,7 +206,7 @@ class RiskApp:
         # Logo / título
         tk.Label(side, text="Análise de Riscos", bg=self.cor_bg,
                  fg="white", font=("Segoe UI", 13, "bold")).pack(pady=(22, 2))
-        tk.Label(side, text="Nacional Securitizadora", bg=self.cor_bg,
+        tk.Label(side, text="Minha Empresa", bg=self.cor_bg,
                  fg="#94a3b8", font=("Segoe UI", 8)).pack(pady=(0, 18))
 
         tk.Frame(side, bg="#1e3a6e", height=1).pack(fill="x", padx=20, pady=4)
